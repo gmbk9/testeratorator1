@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<style type="text/css">
+.b{
+position:fixed;
+background-image:url("divcrc1.png");
+width:100%;
+height:100%;
+z-index:7;
+}
+.c{
+position:fixed;
+background:black;
+width:100%;
+height:100%;
+z-index:5;
+}
+@keyframes lotaterate{
+from{
+transform: rotateZ(0deg);
+}
+to{
+transform: rotateZ(359deg);
+}
+}
+
+.target_image{
+animation: lotaterate linear 5s;
+animation-iteration-count: infinite;
+}
+</style>
+
+
+<script type="text/javascript">
+console.log(0+(1===1))
+</script>
+
+  <body>
+    <a href="https://1drv.ms/f/s!AlAYx0f0hRL1cfCUsbGX4DaqxgY">
+    <img src="divcrc1.png">
+    </a>
+    <div class="c" >
+    </div>
+    <div class="b">
+    </div>
+  </body>
+
+  
+</html>
